@@ -1,18 +1,14 @@
-import { View } from 'react-native';
-import { styles } from './src/styles/estilos';
-import Body from './src/components/Body';
-import Cabecalho from './src/components/Cabecalho';
-import Final from './src/components/Final';
+import Login from './src/assets/pages/ Login';
+import { View } from "react-native";
+import { styles } from './src/assets/styles/estilos';
+
 
 export default function App() {
 
   return (
     <View style={styles.container}>
-    
-     <Cabecalho />
-     <Body />
-     <Final />
-    
+      <Login />
     </View>
-  );
+
+  )
 }
