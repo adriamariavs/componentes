@@ -41,14 +41,14 @@ container: {
 
 InputName: {
 
-  borderWidth: 2,
-  borderColor: 'grey',
+  borderWidth: 3,
+  borderColor: '#B0E0E6',
   borderRadius: 5,
-  margin: 15,
+  margin: 20,
   justifyContent: 'center',
-  backgroundColor: 'white',
+  backgroundColor: '#E0FFFF',
   width: '90%',
-  height: '20%',
+  height: '40%',
 
 },
 
@@ -60,8 +60,20 @@ imagereact: {
   marginTop: '5%',
   borderRadius: 50,
   borderWidth: 2,
-  borderColor: 'grey',
+  borderColor: '#E0FFFF',
  
+},
+
+btn: {
+  textAlign: 'center',
+  borderColor: '#B0E0E6',
+  backgroundColor: '#E0FFFF',
+  width: 50,
+  borderWidth: 2,
+  borderRadius: 20,
+  padding: 10,
+  width: 100,
+  alignItems: 'center',
 }
 
 }

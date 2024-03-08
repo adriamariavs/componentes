@@ -6,6 +6,5 @@ export default function LoginImage() {
 
         <View>
             <Image source={require('../images/imagemnova.jpg')} style={styles.imagereact} />
-        
         </View>
     )}
